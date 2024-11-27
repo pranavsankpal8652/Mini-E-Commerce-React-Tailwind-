@@ -1,11 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Header from './Components/Header'
-import Banner from './Components/banner'
-import Men from './Components/men'
-import Women from './Components/women'
-import Trending from './Components/Trending'
+
 import Categories from './Components/categories'
+import Banner from './Components/Banner'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

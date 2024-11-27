@@ -1,8 +1,8 @@
 import React from 'react'
 import { cat_products_Men, cat_products_Trending, cat_products_Women } from '../data/cat_data'
 import Trending from './Trending'
-import Men from './men'
-import Women from './women'
+import Men from './Men'
+import Women from './Women'
 
 export default function Categories({cat_name,cat_desc}) {
   return (

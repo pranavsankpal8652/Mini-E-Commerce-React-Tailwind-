@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Header from './Components/Header'
 
-import Categories from './Components/categories'
+import Categories from './Components/Categories'
 import Banner from './Components/Banner'
 
 createRoot(document.getElementById('root')).render(

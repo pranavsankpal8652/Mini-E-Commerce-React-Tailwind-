@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Men({imgsrc,title,price,rating}) {
   return (
-    <div className='basis-[25%] shadow-lg p-[20px] relative group cursor-pointer '>
+    <div className='basis-[23%] shadow-lg p-[20px] relative group cursor-pointer '>
         <div>
             <img src={imgsrc} className=''></img>
         </div>

@@ -20,18 +20,18 @@ export default function Header() {
   return (
     <>
     <div className={`max-w-[100%] bg-white sticky top-0 shadow-lg ${(!displayCanvas)?'duration-[1s]':''} z-[100]`}> 
-        <div className='max-w-[1500px]  mx-auto p-[20px] text-[20px] font-[600] grid grid-cols-10 items-center relative'>
+        <div className='max-w-[1500px]  mx-auto p-[15px] text-[17px] font-[600] grid grid-cols-10 items-center relative'>
             <div className='col-start-4 col-end-6 flex gap-[50px] p-[20px] '>
                 <div className='cursor-pointer flex items-center gap-[5px] ' onClick={toggleSubMenu}>
                     <div>Product</div>
                     <img src={down_arrow}></img>
-                    <div className={`submenu absolute top-[100%] bg-white p-[20px] w-[35%] rounded-[10px] ${displaySubMenu?'':'hidden'} `}>
-                        <ul className='flex flex-col gap-[40px] p-[20px]'>
+                    <div className={`submenu absolute top-[100%] bg-white p-[20px] w-[30%] rounded-[10px] ${displaySubMenu?'':'hidden'} shadow-2xl`}>
+                        <ul className='flex flex-col gap-[20px] p-[16px] text-[16px]'>
                             <li>Electronics</li>
                             <li>Jewelery</li>
                             <li>Men's Clothing</li>
                             <li>Women's Clothing</li>
-                            <li className='p-[15px] px-[25px]'>View All Products</li>
+                            <li className='py-[5px] px-[25px]'>View All Products -&gt;</li>
                         </ul>
                     </div>
                 </div>

@@ -6,10 +6,10 @@ import Women from './Women'
 
 export default function Categories({cat_name,cat_desc}) {
   return (
-    <div className='max-w-[100%] my-[100px]'>
+    <div className='max-w-[100%] my-[50px] p-[60px]'>
         <div className="max-w-[1520px] mx-auto">
-            <div className="text-[30px] font-bold">{cat_name}</div>
-            <div className="text-[25px] font-[340]">{cat_desc}</div>
+            <div className="text-[27px] font-bold">{cat_name}</div>
+            <div className="text-[20px] font-[340]">{cat_desc}</div>
             <div className="flex gap-[20px] p-[10px] ">
                 {
                       cat_name.includes('Men')?

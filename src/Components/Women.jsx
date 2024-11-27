@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Women({imgsrc,title,price,rating}) {
   return (
-    <div className='basis-[25%] shadow-lg p-[20px] relative group cursor-pointer max-h-fit'>
+    <div className='basis-[23%] shadow-lg p-[20px] relative group cursor-pointer max-h-fit'>
         <div className='overflow-hidden'>
         <img src={imgsrc} className='scale-[1.3]'></img>
         </div>
